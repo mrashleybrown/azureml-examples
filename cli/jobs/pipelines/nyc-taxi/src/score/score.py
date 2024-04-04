@@ -5,7 +5,7 @@ from pathlib import Path
 from sklearn.linear_model import LinearRegression
 import pickle
 from sklearn.metrics import mean_squared_error, r2_score
-
+import numpy as np
 parser = argparse.ArgumentParser("score")
 parser.add_argument(
     "--predictions", type=str, help="Path of predictions and actual data"
